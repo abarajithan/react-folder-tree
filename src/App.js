@@ -12,7 +12,7 @@ const Folder = ({ name, children }) => {
 
   const getStyle = isOpen => {
     return {
-      marginLeft: "15px",
+      marginLeft: "10px",
       overflow: "hidden",
       height: isOpen ? "auto" : "0"
     };
